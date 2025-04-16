@@ -1,0 +1,81 @@
+*{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: darkgreen;
+font-size: medium;
+text-align: center;
+}
+body {
+    margin: 10px 80px 0 80px;
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+}
+#titulo1{
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.titulos{
+    font-size: 30px;
+    color: bisque;
+}
+
+#cajitatexto{
+    padding: 0 40px 0 40px;
+}
+#cajitabotón{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    width: 120px;
+}
+#imagen{
+    text-align: center;
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color:rgb(226, 64, 43);
+}
+.contenedor{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen img{
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease-in-out;
+
+}
+
+.cajatexto{
+    background-color: beige;
+    font-weight: bolder;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+
+}
+.imagen:hover.cajatexto{
+    display: block;
+}
+
+.imagen:hover img{
+    height: 120px;
+    width: 120px;
+    transform: translateY(-70px);
+}
